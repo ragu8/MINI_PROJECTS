@@ -1,4 +1,4 @@
-LIST OF MINI_PROJECT
+LIST_OF_MINI_PROJECT
 ====================
 
 1) QR Code Generation using Python
