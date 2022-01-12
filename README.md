@@ -1,2 +1,21 @@
-# MINI_PROJECTS
-Mini Project helps you to explore and strengthen the understanding of fundamentals through practical application of theoretical concepts. Mini Project can help you to boost your skills
+LIST OF MINI_PROJECT
+====================
+
+1) QR Code Generation using Python
+--------------------------------
+
+Dependencies
+
+       * qrcode
+       * ipython
+       * opencv
+
+System Design
+      
+      * Import Our Dependencies
+      * QR Code Generation
+      * Viewing The QR
+      * Encode A QR Code
+      * Viewing The QR
+      * Decode A QR Code
+      
