@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-07T01:18:40.965Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="3MuU8ybSZIrH7d-DQBZ2" version="23.0.0" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-07T01:41:26.936Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="QQ0yeWe2JxvSJG2k_1ch" version="23.0.0" type="github">
   <diagram name="Page-1" id="fzjMtXdlAiXH6olVbyjk">
-    <mxGraphModel dx="1674" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -63,18 +63,6 @@
         <mxCell id="NTvacWG2wVUT-Fo1ADtY-27" value="&lt;b&gt;Overview:&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="81" y="254" width="90" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NTvacWG2wVUT-Fo1ADtY-63" value="&lt;b&gt;Trigger Alarm &lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="160" y="2055" width="100" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="NTvacWG2wVUT-Fo1ADtY-70" value="If the Network is disconnected, retain the instance, and transfer the data when it reconnects." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="69" y="2323" width="510" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="NTvacWG2wVUT-Fo1ADtY-71" value=" The configuration file as JSON, and if it is absent, raise a &quot;File Missing&quot; error. Proceed to configure the &lt;b&gt;RoI&lt;/b&gt; " style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="67" y="2258" width="590" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="NTvacWG2wVUT-Fo1ADtY-72" value="Following the validation of an intrusion, if confirmed, gather information related to the&amp;nbsp;intrusion, capturing video data for a brief duration." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="67" y="2288" width="740" height="30" as="geometry" />
-        </mxCell>
         <mxCell id="NTvacWG2wVUT-Fo1ADtY-74" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" target="NTvacWG2wVUT-Fo1ADtY-75" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="360" y="1495" as="sourcePoint" />
@@ -93,45 +81,22 @@
         <mxCell id="NTvacWG2wVUT-Fo1ADtY-77" value="&lt;b&gt;Camera&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="1" vertex="1">
           <mxGeometry x="30" y="1198" width="100" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NTvacWG2wVUT-Fo1ADtY-78" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="630" y="2190" as="sourcePoint" />
-            <mxPoint x="624" y="1268" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NTvacWG2wVUT-Fo1ADtY-79" value="&lt;div&gt;&lt;b&gt;Cloud&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Server&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="570" y="1198" width="100" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="NTvacWG2wVUT-Fo1ADtY-80" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="701" y="1425" as="sourcePoint" />
-            <mxPoint x="701" y="1565" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NTvacWG2wVUT-Fo1ADtY-81" value="&lt;b&gt;TIME&lt;/b&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" parent="NTvacWG2wVUT-Fo1ADtY-80" vertex="1" connectable="0">
-          <mxGeometry x="0.1714" y="2" relative="1" as="geometry">
-            <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="NTvacWG2wVUT-Fo1ADtY-82" value="Camera module initialization" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="112" y="1508" width="170" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NTvacWG2wVUT-Fo1ADtY-83" value="&lt;b&gt;Start&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="314.5" y="1318" width="101" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NTvacWG2wVUT-Fo1ADtY-84" value="&lt;b&gt;Intrusion Detected&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="185" y="1985" width="130" height="30" as="geometry" />
+        <mxCell id="NTvacWG2wVUT-Fo1ADtY-84" value="&lt;b&gt;Vehicle&lt;/b&gt;&lt;b&gt; Detected&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="190" y="1985" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NTvacWG2wVUT-Fo1ADtY-85" value="Notification" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="715" y="2091" width="80" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="NTvacWG2wVUT-Fo1ADtY-86" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+        <mxCell id="NTvacWG2wVUT-Fo1ADtY-86" value="" style="endArrow=classic;html=1;rounded=0;flowAnimation=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="345" y="1716" as="sourcePoint" />
             <mxPoint x="345" y="1756" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NTvacWG2wVUT-Fo1ADtY-87" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+        <mxCell id="NTvacWG2wVUT-Fo1ADtY-87" value="" style="endArrow=classic;html=1;rounded=0;flowAnimation=1;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="321" y="1970" as="sourcePoint" />
             <mxPoint x="321" y="2010" as="targetPoint" />
@@ -159,18 +124,18 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="NTvacWG2wVUT-Fo1ADtY-91" value="A higher rate of fps so maintain low latency." style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="95" y="1720" width="250" height="30" as="geometry" />
+          <mxGeometry x="80" y="1710" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NTvacWG2wVUT-Fo1ADtY-92" value="One time operation while installation" style="text;whiteSpace=wrap;fontStyle=1" parent="1" vertex="1">
           <mxGeometry x="371" y="1270" width="220" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NTvacWG2wVUT-Fo1ADtY-93" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" target="NTvacWG2wVUT-Fo1ADtY-94" edge="1">
+        <mxCell id="NTvacWG2wVUT-Fo1ADtY-93" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;flowAnimation=0;orthogonalLoop=1;" parent="1" target="NTvacWG2wVUT-Fo1ADtY-94" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="90" y="2190" as="sourcePoint" />
+            <mxPoint x="90" y="2440" as="sourcePoint" />
             <mxPoint x="84" y="1268" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NTvacWG2wVUT-Fo1ADtY-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="NTvacWG2wVUT-Fo1ADtY-94" target="NTvacWG2wVUT-Fo1ADtY-97" edge="1">
+        <mxCell id="NTvacWG2wVUT-Fo1ADtY-123" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="NTvacWG2wVUT-Fo1ADtY-94" target="NTvacWG2wVUT-Fo1ADtY-97" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="150" y="1639" />
@@ -190,50 +155,23 @@
         <mxCell id="NTvacWG2wVUT-Fo1ADtY-99" value="Livestream" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="150" y="1616" width="80" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="NTvacWG2wVUT-Fo1ADtY-100" value="&lt;b&gt;IDS (Predefined Model)&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="NTvacWG2wVUT-Fo1ADtY-100" value="&lt;div&gt;&lt;b&gt;&lt;code&gt;Vehicles Detector&lt;/code&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;code&gt;(&lt;/code&gt;&lt;/b&gt;&lt;code&gt;yolov8n.pt&lt;/code&gt;&lt;b&gt;&lt;code&gt;)&lt;br&gt;&lt;/code&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;&lt;code&gt;&lt;/code&gt;&lt;/b&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="300" y="1777" width="140" height="60" as="geometry" />
         </mxCell>
         <mxCell id="NTvacWG2wVUT-Fo1ADtY-101" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="364" y="2190" as="sourcePoint" />
+            <mxPoint x="364" y="2440" as="sourcePoint" />
             <mxPoint x="364" y="2120" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NTvacWG2wVUT-Fo1ADtY-102" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NTvacWG2wVUT-Fo1ADtY-104" target="NTvacWG2wVUT-Fo1ADtY-107" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="NTvacWG2wVUT-Fo1ADtY-103" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" parent="1" source="NTvacWG2wVUT-Fo1ADtY-104" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="510" y="2106" />
-              <mxPoint x="510" y="2106" />
-            </Array>
-            <mxPoint x="670" y="2106" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NTvacWG2wVUT-Fo1ADtY-104" value="&lt;b&gt;Retrieve information regarding the intrusion.&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="NTvacWG2wVUT-Fo1ADtY-104" value="&lt;b&gt;&lt;code&gt;License Plate Detector&lt;/code&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="300" y="2050" width="140" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="NTvacWG2wVUT-Fo1ADtY-105" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="710" y="2123.828571428571" as="sourcePoint" />
-            <mxPoint x="770" y="2125.2" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="NTvacWG2wVUT-Fo1ADtY-106" value="&lt;b&gt;Process the Information&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" parent="1" vertex="1">
-          <mxGeometry x="550" y="2088" width="160" height="72" as="geometry" />
-        </mxCell>
-        <mxCell id="NTvacWG2wVUT-Fo1ADtY-107" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://png.pngtree.com/png-vector/20191030/ourlarge/pngtree-fire-alarm-icon-simple-style-png-image_1911554.jpg;" parent="1" vertex="1">
-          <mxGeometry x="50" y="2040" width="80" height="80" as="geometry" />
-        </mxCell>
-        <mxCell id="NTvacWG2wVUT-Fo1ADtY-108" value="Send the instance details" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="445" y="2038" width="160" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NTvacWG2wVUT-Fo1ADtY-110" value="&lt;b&gt;&lt;span class=&quot;ILfuVd&quot; lang=&quot;en&quot;&gt;&lt;span class=&quot;hgKElc&quot;&gt;continual&lt;/span&gt;&lt;/span&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="1760" width="90" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="NTvacWG2wVUT-Fo1ADtY-111" value="&lt;b&gt;No Intrusion Detected&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="427" y="1956" width="150" height="30" as="geometry" />
+        <mxCell id="NTvacWG2wVUT-Fo1ADtY-111" value="&lt;b&gt;No&amp;nbsp;&lt;/b&gt;&lt;b&gt;Vehicle&lt;/b&gt;&lt;b&gt; Detected&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+          <mxGeometry x="432" y="1956" width="140" height="30" as="geometry" />
         </mxCell>
         <mxCell id="NTvacWG2wVUT-Fo1ADtY-112" value="" style="endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
@@ -241,7 +179,7 @@
             <mxPoint x="520" y="1942" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="NTvacWG2wVUT-Fo1ADtY-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="NTvacWG2wVUT-Fo1ADtY-114" target="NTvacWG2wVUT-Fo1ADtY-97" edge="1">
+        <mxCell id="NTvacWG2wVUT-Fo1ADtY-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;flowAnimation=1;" parent="1" source="NTvacWG2wVUT-Fo1ADtY-114" target="NTvacWG2wVUT-Fo1ADtY-97" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="560" y="1921" />
@@ -249,20 +187,20 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="NTvacWG2wVUT-Fo1ADtY-114" value="&lt;b&gt;Validating Intrusion&lt;/b&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
+        <mxCell id="NTvacWG2wVUT-Fo1ADtY-114" value="&lt;div&gt;&lt;b&gt;Validating &lt;br&gt;&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;b&gt;Vehicle&lt;br&gt;&lt;/b&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="309" y="1866" width="111" height="110" as="geometry" />
         </mxCell>
         <mxCell id="NTvacWG2wVUT-Fo1ADtY-119" value="&lt;b&gt;System Design:&lt;br&gt;&lt;/b&gt;" style="text;whiteSpace=wrap;html=1;fontSize=12;fontFamily=Helvetica;fontColor=default;" parent="1" vertex="1">
           <mxGeometry x="11" y="1134" width="119" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NTvacWG2wVUT-Fo1ADtY-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.1;entryY=0.082;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="NTvacWG2wVUT-Fo1ADtY-95" target="NTvacWG2wVUT-Fo1ADtY-94" edge="1">
+        <mxCell id="NTvacWG2wVUT-Fo1ADtY-121" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1.1;entryY=0.082;entryDx=0;entryDy=0;entryPerimeter=0;flowAnimation=1;" parent="1" source="NTvacWG2wVUT-Fo1ADtY-95" target="NTvacWG2wVUT-Fo1ADtY-94" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="NTvacWG2wVUT-Fo1ADtY-125" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://static.thenounproject.com/png/1751113-200.png;" parent="1" vertex="1">
-          <mxGeometry x="760" y="2111" width="70" height="70" as="geometry" />
+        <mxCell id="cLL6UKO_HJwwn3FFDw4z-2" value="&lt;code&gt;Display frame with bounding boxes&lt;/code&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="300" y="2189" width="140" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="NTvacWG2wVUT-Fo1ADtY-127" value="&lt;div&gt;&lt;b&gt;NOTE:&lt;/b&gt;&lt;/div&gt;&lt;b&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &lt;br&gt;&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="30" y="2226" width="90" height="40" as="geometry" />
+        <mxCell id="cLL6UKO_HJwwn3FFDw4z-4" value="&lt;code&gt;Close OpenCV windows&lt;/code&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="295" y="2331" width="140" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
