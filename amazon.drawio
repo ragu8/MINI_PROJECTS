@@ -1,19 +1,28 @@
-<mxfile host="app.diagrams.net" modified="2024-02-10T02:23:51.474Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="aCYRBWt1teDfthEz28C7" version="23.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-10T03:20:28.645Z" agent="Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:122.0) Gecko/20100101 Firefox/122.0" etag="jv-LoJnnvxUr0NRvW7pb" version="23.1.2" type="github">
   <diagram name="Page-1" id="mA-jp0NSWvrDUin-VT9B">
-    <mxGraphModel dx="1434" dy="795" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2391" dy="1136" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <UserObject label="" link="https://docs.aws.amazon.com/AWSEC2/latest/UserGuide/concepts.html#:~:text=Amazon%20Elastic%20Compute%20Cloud%20(Amazon,develop%20and%20deploy%20applications%20faster." linkTarget="_blank" id="2LADb9oRf2IulblfYdqi-2">
           <mxCell style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.ec2;fillColor=#F58534;gradientColor=none;" parent="1" vertex="1">
-            <mxGeometry x="110" y="60" width="76.5" height="93" as="geometry" />
+            <mxGeometry x="361.75" y="110" width="76.5" height="93" as="geometry" />
           </mxCell>
         </UserObject>
         <UserObject label="&lt;div&gt;EC2&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" link="https://docs.aws.amazon.com/pdfs/AWSEC2/latest/UserGuide/ec2-ug.pdf#concepts" linkTarget="_blank" id="lxHX-_SgEd3GGqta9jvy-3">
-          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-            <mxGeometry x="123.25" y="165" width="50" height="40" as="geometry" />
+          <mxCell style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
+            <mxGeometry x="375" y="210" width="50" height="40" as="geometry" />
           </mxCell>
         </UserObject>
+        <mxCell id="1Hp6jr6JJbxGPaz0VmYI-1" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://d2908q01vomqb2.cloudfront.net/fc074d501302eb2b93e2554793fcaf50b3bf7291/2022/12/06/Figure-1.-Solution-architecture-for-Snakemake-with-Tibanna-on-AWS-1260x592.png;" vertex="1" parent="1">
+          <mxGeometry x="20" y="510" width="802.13" height="377" as="geometry" />
+        </mxCell>
+        <mxCell id="1Hp6jr6JJbxGPaz0VmYI-4" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://miro.medium.com/v2/resize:fit:744/1*HpsJnggZgwOb9b8bz1H4RA.png;" vertex="1" parent="1">
+          <mxGeometry x="90" y="990" width="744" height="333" as="geometry" />
+        </mxCell>
+        <mxCell id="1Hp6jr6JJbxGPaz0VmYI-5" value="" style="shape=image;verticalLabelPosition=bottom;labelBackgroundColor=default;verticalAlign=top;aspect=fixed;imageAspect=0;image=https://docs.aws.amazon.com/images/whitepapers/latest/establishing-your-cloud-foundation-on-aws/images/governance-category.png;" vertex="1" parent="1">
+          <mxGeometry x="20" y="1400" width="780" height="520" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
